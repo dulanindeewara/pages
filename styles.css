@@ -1,0 +1,80 @@
+body{
+    background-image: url(images/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-nav{
+    background-color: #E5E4E2;
+}
+#icon_size1{
+    font-size:15mm;
+}
+ul{
+    list-style: none;
+    line-height: 1;
+    padding: 0px;
+}
+.verticle_line{
+    background-color: #0070BB;
+    width: 2px;
+    height:100%;
+    margin-left: 50px;
+    margin-right: 0;
+}
+#google_map{
+    width: 100%;
+    height: 100%;
+}
+.text_grey{
+    color: rgb(109, 107, 107);
+}
+#foot{
+    display: flex;
+}
+#sunrise{
+    
+    text-align: center;
+    width: 100px;
+    height: 60px;
+}
+#sunrise>p:nth-child(1){
+    color:grey;
+    font-size: 10px;
+    font-weight: bold;
+}
+#sunset{
+    
+    text-align: center;
+    width: 100px;
+    height: 60px;
+}
+#sunset>p:nth-child(1){
+    color:grey;
+    font-size: 10px;
+    font-weight: bold;
+}
+#con{
+    display: flex;
+    
+}
+#con>p{
+    margin: 0;
+    margin-right: 15px;
+}
+#con1{
+    display: flex;
+
+}
+#con1>i{
+    margin-right: 10px;
+    text-align: center;
+}
+#icon_size2{
+    font-size:5mm;
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+table{
+    background-color:white;
+}
